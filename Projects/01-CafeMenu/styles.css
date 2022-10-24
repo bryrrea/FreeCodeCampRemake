@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    background-image: url("./src/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Menu's structure */
+.menu {
+    width: 80%;
+    max-width: 80rem;
+    max-height: 100rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #3f3b3b;
+
+    animation: smoothEnter 1s ease-in;
+}
+
+.dashed {
+    border: 2px dashed #CF9A60 ;
+    border-radius: 1rem;
+
+    width: 99%;
+    padding: 0 3rem;
+
+    margin: 1rem auto;
+}
+
+/* Text styling */
+
+.items p {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 3rem ;
+    text-align: center;
+    color: #CF9A60;
+}
+
+.est {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF5F5;
+}
+
+.flavor,
+.dessert {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: #FFF5F5;
+
+    width: 75%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.price {
+    width: 25%;
+
+    display: inline-block;
+    
+    font-size: 1.5rem;
+    text-align: right;
+    color: #FFF5F5;
+}
+
+/* Images */
+header svg {
+    display: block;
+
+    width: 15rem;
+    margin: -4rem auto;
+}
+
+svg {
+    display: block;
+
+    width: 3.2rem;    
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Separator */
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    background-color: #CF9A60;
+    border-color: #CF9A60;
+}
+
+/* footer */
+
+footer {
+    margin: .5rem auto ;
+}
+
+p.footer {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFF5F5;
+    text-align: center;
+
+    margin-top: .2rem;
+}
+
+footer a {
+    cursor: pointer;
+
+    color: #ECC665;
+    text-decoration: none;
+}
+
+/* Pseudo */
+
+a:hover {
+    color: #CF9A60;
+}
+
+a:visited {
+    color: #CF9A60;
+}
+
+a:active {
+    color: #FFF5F5;
+}
+
+/* Animation */
+
+@keyframes smoothEnter {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    75% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.items:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
