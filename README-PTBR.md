@@ -5,8 +5,7 @@
 |[HERE](./README.md)|[HERE](./README-PTBR.md)|  
 
 ## **INTRODUÇÃO**  
-<span>Bem-vindo(a) a esta repositório!</span>  
-Espero que todos(as) estejam bem!  
+**Bem-vindo(a) a esta repositório!** Espero que todos(as) estejam bem!  
 Meu nome é Bryan. Sou Engenheiro Bioquímico recém-formado, e moro no Brasil. Decidi começar a estudar desenvolvimento web front-end há mais de um mês, e um dos materiais que estou usando é o curso do Free Code Camp ["New Responsive Web Design"] (https://www.freecodecamp.org/learn/2022/responsive-web-design/). Assim, tive a ideia de recriar os projetos do curso, e este repo nasceu.  
 
 ## **Objetivo**  

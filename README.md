@@ -5,8 +5,7 @@
 |[HERE](./README.md)|[HERE](./README-PTBR.md)|  
 
 ## **INTRO**  
-<span>Welcome to this repo!</span>  
-I hope you are all fine!  
+**Welcome to this repo!** I hope you are all fine!  
 My name is Bryan. I'm a newly graduated Biochemical Engineer, and I live in Brazil. I decided to start studying front-end web development over a month ago, and one of the materials I'm using is the Free Code Camp course ["New Responsive Web Design"](https://www.freecodecamp.org/learn/2022/responsive-web-design/). So I had the idea to recreate the projects from the course, and this repo was born.  
 
 ## **Objective**  
